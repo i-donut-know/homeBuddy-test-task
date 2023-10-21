@@ -1,2 +1,2 @@
-# homeBuddy-test-task
-HomeBuddy test task
+# homebuddy-test-task
+Homebuddy test task
