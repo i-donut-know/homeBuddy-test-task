@@ -1,13 +1,11 @@
 // import './App.css';
 
+import CardList from "./components/CardList/CardList";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hello world
-        </p>
-      </header>
+    <div className="">
+      <CardList />
     </div>
   );
 }
