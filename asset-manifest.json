@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/homebuddy-test-task/static/css/main.c13834e0.css",
-    "main.js": "/homebuddy-test-task/static/js/main.df712fa8.js",
+    "main.css": "/homebuddy-test-task/static/css/main.ec075a91.css",
+    "main.js": "/homebuddy-test-task/static/js/main.b8b6e46a.js",
     "static/js/787.5675e920.chunk.js": "/homebuddy-test-task/static/js/787.5675e920.chunk.js",
     "static/media/gutter-03@2x.jpg": "/homebuddy-test-task/static/media/gutter-03@2x.58f3faf479a9771b22b0.jpg",
     "static/media/gutter-01@2x.jpg": "/homebuddy-test-task/static/media/gutter-01@2x.bd2a90bcc4f8348e980d.jpg",
@@ -12,12 +12,12 @@
     "static/media/badge-usa@2x.png": "/homebuddy-test-task/static/media/badge-usa@2x.1546fedb758a71b27cf2.png",
     "static/media/badge-usa.png": "/homebuddy-test-task/static/media/badge-usa.8ca4c7f3d2d2078f3d55.png",
     "index.html": "/homebuddy-test-task/index.html",
-    "main.c13834e0.css.map": "/homebuddy-test-task/static/css/main.c13834e0.css.map",
-    "main.df712fa8.js.map": "/homebuddy-test-task/static/js/main.df712fa8.js.map",
+    "main.ec075a91.css.map": "/homebuddy-test-task/static/css/main.ec075a91.css.map",
+    "main.b8b6e46a.js.map": "/homebuddy-test-task/static/js/main.b8b6e46a.js.map",
     "787.5675e920.chunk.js.map": "/homebuddy-test-task/static/js/787.5675e920.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c13834e0.css",
-    "static/js/main.df712fa8.js"
+    "static/css/main.ec075a91.css",
+    "static/js/main.b8b6e46a.js"
   ]
 }
