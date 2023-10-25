@@ -25,12 +25,14 @@ const CardBlock = ({ name, value, content, onChange }) => {
               </span>
               <span className="selection__discount"><span className="selection__discountNumber">{item.discount}</span>%OFF</span>
               <picture>
-                <source srcSet={`${require(`./../../images/${item.image}`)}, ${require(`./../../images/${item.imageRetina}`)} 2x`} />
+                <source srcSet={`${require(`./../../images/${item.imageWebp}`)}, ${require(`./../../images/${item.imageRetinaWebp}`)} 2x`} type="image/webp" />
+                <source srcSet={`${require(`./../../images/${item.image}`)}, ${require(`./../../images/${item.imageRetina}`)} 2x`} type="image/jpg" />
                 <img className="selection__image" src={require(`./../../images/${item.image}`)} alt={`Gutter ${item.discount}% off`} />
               </picture>
             </label>
             <picture>
-              <source srcSet={`${require(`./../../images/${item.countryImg}`)}, ${require(`./../../images/${item.countryImgRetina}`)} 2x`} />
+              <source srcSet={`${require(`./../../images/${item.countryImgWebp}`)}, ${require(`./../../images/${item.countryImgRetinaWebp}`)} 2x`} type="image/webp" />
+              <source srcSet={`${require(`./../../images/${item.countryImg}`)}, ${require(`./../../images/${item.countryImgRetina}`)} 2x`} type="image/png" />
               <img className="selection__badge" src={require(`./../../images/${item.countryImg}`)} alt={item.countryImgAlt} />
             </picture>
           </div>
@@ -72,9 +74,13 @@ CardBlock.propTypes = {
       subtitle: propTypes.string.isRequired,
       image: propTypes.string.isRequired,
       imageRetina: propTypes.string.isRequired,
+      imageWebp: propTypes.string.isRequired,
+      imageRetinaWebp: propTypes.string.isRequired,
       discount: propTypes.string.isRequired,
       countryImg: propTypes.string.isRequired,
       countryImgRetina: propTypes.string.isRequired,
+      countryImgWebp: propTypes.string.isRequired,
+      countryImgRetinaWebp: propTypes.string.isRequired,
       countryImgAlt: propTypes.string.isRequired,
       text: propTypes.node.isRequired,
       value: propTypes.string.isRequired,
