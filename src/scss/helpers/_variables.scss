@@ -6,18 +6,12 @@ $green: #22aa57;
 $green2: #22a957;
 $borderHover: #79cc99;
 $blue: #79aecc;
+$lineAccent: #65ffad;
 
-// typo
-// $title: 2.4rem;
-// $text: 1.6rem;
-// $smallText: 1.3rem;
-// $noteText: 1.1rem;
-
-// // line-height
-// $lhXs: 1;
-// $lhSm: 1.2;
-// $lhmd: 1.4;
-// $lhLg: 1.6;
+// line-height
+$lhxs: 1;
+$lhsm: 1.2;
+$lhmd: 1.4;
 
 // font-weight
 $semiBold: 600;
@@ -38,6 +32,7 @@ $lgGreen: linear-gradient(#139043, #23ab58);
 $lgGreenHover: linear-gradient(#0e622f, #20a855);
 $lgBlue: linear-gradient(#6598b5, #79aecc);
 $lgBlueHover: linear-gradient(#305569, #6ba8cb);
+$lgBg: linear-gradient(180deg, #ffffff 14.7%, rgba(217, 217, 217, 0) 100.81%);
 
 // width
 $container-width: 128rem;

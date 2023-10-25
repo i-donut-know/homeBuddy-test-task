@@ -5,22 +5,35 @@ body {
   font-size: 1.6rem;
   font-style: inherit;
   font-weight: $semiBold;
-  line-height: 1.4;
+  line-height: $lhmd;
   overflow-x: hidden;
+  background: $white url("./../../images/bg.avif") center;
 
-  // * {
-  //   &:focus {
-  //     outline: 3px solid blue;
-  //   }
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $lgBg;
+    z-index: -1;
+  }
 
-  //   &:focus:not(:focus-visible) {
-  //     outline: none;
-  //   }
+  * {
+    &:focus {
+      outline: 3px solid $gray;
+    }
 
-  //   &:focus-visible {
-  //     outline: 3px solid blue;
-  //   }
-  // }
+    &:focus:not(:focus-visible) {
+      outline: none;
+    }
+
+    &:focus-visible {
+      outline: 3px solid $gray;
+    }
+  }
 
   input[type="radio"] {
     position: absolute;

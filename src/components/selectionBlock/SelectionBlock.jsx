@@ -12,10 +12,6 @@ const CardBlock = ({ name, value, content, onChange }) => {
     [onChange],
   );
 
-  // function changeText(e) {
-  //   e.target.closest('.selection__card_selected').getElementsByClassName("selection__subtitle")[0].innerHTML = "Excellent decision!";
-  // }
-
   return (
     <div className="selection__list">
       {content.map(item => (
