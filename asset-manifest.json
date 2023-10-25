@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/homebuddy-test-task/static/css/main.10282c6c.css",
+    "main.css": "/homebuddy-test-task/static/css/main.fecb43b3.css",
     "main.js": "/homebuddy-test-task/static/js/main.af03fa37.js",
     "static/js/787.5675e920.chunk.js": "/homebuddy-test-task/static/js/787.5675e920.chunk.js",
     "static/media/bg.avif": "/homebuddy-test-task/static/media/bg.8180c4a922353cc24328.avif",
@@ -13,12 +13,12 @@
     "static/media/gutter-03.avif": "/homebuddy-test-task/static/media/gutter-03.3be3dd87c6c949d6fd4f.avif",
     "static/media/gutter-02.avif": "/homebuddy-test-task/static/media/gutter-02.57ee32f418ac8ac81bc0.avif",
     "index.html": "/homebuddy-test-task/index.html",
-    "main.10282c6c.css.map": "/homebuddy-test-task/static/css/main.10282c6c.css.map",
+    "main.fecb43b3.css.map": "/homebuddy-test-task/static/css/main.fecb43b3.css.map",
     "main.af03fa37.js.map": "/homebuddy-test-task/static/js/main.af03fa37.js.map",
     "787.5675e920.chunk.js.map": "/homebuddy-test-task/static/js/787.5675e920.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10282c6c.css",
+    "static/css/main.fecb43b3.css",
     "static/js/main.af03fa37.js"
   ]
 }
