@@ -1,0 +1,245 @@
+.selection {
+  &__inner {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 5.6rem 1.8rem 6.4rem;
+
+    @include respond(laptop) {
+      padding: 10rem 2rem;
+    }
+  }
+
+  &__heading {
+    font-family: $font-family-secondary;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 4.4rem;
+    font-weight: $bold;
+
+    @include respond(laptop) {
+      font-size: 4.3rem;
+      margin-bottom: 7.2rem;
+      line-height: 1.2;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include respond(tablet) {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+
+    @include respond(laptop) {
+      gap: 7.6rem;
+    }
+  }
+
+  &__item {
+    position: relative;
+
+    & + & {
+      margin-top: 4.4rem;
+    }
+
+    @include respond(tablet) {
+      & + & {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &__card {
+    position: relative;
+    box-shadow: 5px 30px 15px rgba($black, 0.1);
+    border-radius: $brmd;
+
+    &Inner {
+      display: block;
+      position: relative;
+      width: 100%;
+      padding: 2.8rem 1.2rem 1.6rem;
+      max-width: 40rem;
+      background-color: $gray;
+      border-radius: $brmd;
+      clip-path: polygon(7% 0, 100% 0, 100% 100%, 0 100%, 0 5%);
+      cursor: pointer;
+      @include transition(background-color);
+
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        width: calc(100% - 8px);
+        height: calc(100% - 8px);
+        background-color: $white;
+        border-radius: $brsm;
+        clip-path: polygon(6.4% 0, 100% 0, 100% 100%, 0 100%, 0 4.4%);
+      }
+
+      @include respond(laptop) {
+        padding: 4rem 2.4rem 0.4rem;
+      }
+    }
+
+    &_disabled {
+      filter: grayscale(1);
+      opacity: 0.5;
+      cursor: not-allowed;
+
+      .selection__cardInner {
+        cursor: not-allowed;
+      }
+    }
+
+    &:hover:not(.selection__card_disabled, .selection__card_selected) {
+      .selection__cardInner {
+        background-color: $borderHover;
+      }
+
+      .selection__discount {
+        background: $lgGreenHover;
+      }
+    }
+
+    &_selected {
+      .selection__cardInner {
+        background-color: $blue;
+      }
+
+      .selection__discount {
+        background: $lgBlue;
+      }
+
+      &:hover {
+        .selection__discount {
+          background: $lgBlueHover;
+        }
+      }
+    }
+
+    @include respond(tablet) {
+      box-shadow: 15px 30px 20px rgba($black, 0.1);
+    }
+  }
+
+  &__info {
+    display: block;
+    position: relative;
+    padding: 0 1.6rem;
+
+    @include respond(laptop) {
+      padding: 0 0.8rem;
+    }
+  }
+
+  &__title {
+    font-size: 3rem;
+    display: block;
+    font-weight: $bold;
+
+    @include respond(laptop) {
+      font-size: 3.6rem;
+    }
+  }
+
+  &__subtitle {
+    display: block;
+    font-size: 1.6rem;
+    margin-top: 0.8rem;
+    margin-bottom: 8.4rem;
+    @include transition(color);
+
+    &_accent {
+      &_blue {
+        color: $blue;
+      }
+
+      &_green {
+        color: $green2;
+      }
+    }
+
+    @include respond(laptop) {
+      font-size: 1.8rem;
+      margin-bottom: 6.8rem;
+      margin-top: 0.5rem;
+    }
+  }
+
+  &__discount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 13.6rem;
+    height: 13.6rem;
+    border-radius: $circle;
+    position: absolute;
+    bottom: 15.3rem;
+    right: 2.8rem;
+    background: $lgGreen;
+    color: $white;
+    font-size: 2.6rem;
+    font-weight: $extraBold;
+    line-height: 1;
+    z-index: 10;
+
+    &Number {
+      font-size: 7.2rem;
+    }
+
+    @include respond-max(mobile) {
+      bottom: 12.5rem;
+    }
+
+    @include respond(tablet) {
+      bottom: 13.5rem;
+      right: 3.2rem;
+    }
+  }
+
+  &__image {
+    border-radius: $brsm;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  &__badge {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    @include respond(tablet) {
+      left: -1.4rem;
+      bottom: -1.4rem;
+    }
+  }
+
+  &__text {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 1.6rem;
+
+    &_accent {
+      &_green {
+        color: $green;
+      }
+
+      &_bold {
+        font-weight: $bold;
+      }
+    }
+
+    @include respond(laptop) {
+      margin-top: 2rem;
+    }
+  }
+}
