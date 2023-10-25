@@ -1,14 +1,20 @@
 {
   "files": {
     "main.css": "/homebuddy-test-task/static/css/main.1812f1ce.css",
-    "main.js": "/homebuddy-test-task/static/js/main.00dddd91.js",
+    "main.js": "/homebuddy-test-task/static/js/main.6ae63363.js",
     "static/js/787.5675e920.chunk.js": "/homebuddy-test-task/static/js/787.5675e920.chunk.js",
     "static/media/bg.jpg": "/homebuddy-test-task/static/media/bg.9e95decd88a140526fbf.jpg",
     "static/media/gutter-03@2x.jpg": "/homebuddy-test-task/static/media/gutter-03@2x.58f3faf479a9771b22b0.jpg",
     "static/media/gutter-01@2x.jpg": "/homebuddy-test-task/static/media/gutter-01@2x.bd2a90bcc4f8348e980d.jpg",
     "static/media/gutter-02@2x.jpg": "/homebuddy-test-task/static/media/gutter-02@2x.4039b7ec3117133473bb.jpg",
+    "static/media/gutter-03@2x.webp": "/homebuddy-test-task/static/media/gutter-03@2x.4044c562aed4d23acb18.webp",
+    "static/media/gutter-02@2x.webp": "/homebuddy-test-task/static/media/gutter-02@2x.8dc1aeae8431140a007c.webp",
+    "static/media/gutter-01@2x.webp": "/homebuddy-test-task/static/media/gutter-01@2x.2894491e92949795d2d8.webp",
+    "static/media/gutter-01.webp": "/homebuddy-test-task/static/media/gutter-01.1d0b75ba34a4cba8767c.webp",
     "static/media/gutter-01.jpg": "/homebuddy-test-task/static/media/gutter-01.e367f5a443eae34dc1be.jpg",
     "static/media/gutter-03.jpg": "/homebuddy-test-task/static/media/gutter-03.0abd911acdb9bc87a08c.jpg",
+    "static/media/gutter-02.webp": "/homebuddy-test-task/static/media/gutter-02.f3f8b0f1fed975c9a26c.webp",
+    "static/media/gutter-03.webp": "/homebuddy-test-task/static/media/gutter-03.91ebe816bb529b330501.webp",
     "static/media/gutter-02.jpg": "/homebuddy-test-task/static/media/gutter-02.1934ab5f918a32b5efbd.jpg",
     "static/media/badge-usa@2x.png": "/homebuddy-test-task/static/media/badge-usa@2x.1546fedb758a71b27cf2.png",
     "static/media/badge-usa.png": "/homebuddy-test-task/static/media/badge-usa.8ca4c7f3d2d2078f3d55.png",
@@ -22,11 +28,11 @@
     "static/media/gutter-02.avif": "/homebuddy-test-task/static/media/gutter-02.57ee32f418ac8ac81bc0.avif",
     "index.html": "/homebuddy-test-task/index.html",
     "main.1812f1ce.css.map": "/homebuddy-test-task/static/css/main.1812f1ce.css.map",
-    "main.00dddd91.js.map": "/homebuddy-test-task/static/js/main.00dddd91.js.map",
+    "main.6ae63363.js.map": "/homebuddy-test-task/static/js/main.6ae63363.js.map",
     "787.5675e920.chunk.js.map": "/homebuddy-test-task/static/js/787.5675e920.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1812f1ce.css",
-    "static/js/main.00dddd91.js"
+    "static/js/main.6ae63363.js"
   ]
 }
