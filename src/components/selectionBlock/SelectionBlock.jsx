@@ -12,6 +12,22 @@ const CardBlock = ({ name, value, content, onChange }) => {
     [onChange],
   );
 
+  const changeText = (item) => {
+    if (item.disabled) {
+      return (
+        <div className="selection__text selection__text_accent_green">Sorry, the discount is unavailable</div>
+      )
+    } else if (value === item.value) {
+      return (
+        <div className="selection__text">Special offer for everyone!</div>
+      )
+    } else {
+      return (
+        <div className="selection__text">{item.text}</div>
+      )
+    }
+  };
+
   return (
     <div className="selection__list">
       {content.map(item => (
@@ -36,25 +52,11 @@ const CardBlock = ({ name, value, content, onChange }) => {
               <img className="selection__badge" src={require(`./../../images/${item.countryImg}`)} alt={item.countryImgAlt} />
             </picture>
           </div>
-          {(() => {
-            if (item.disabled) {
-              return (
-                <div className="selection__text selection__text_accent_green">Sorry, the discount is unavailable</div>
-              )
-            } else if (value === item.value) {
-              return (
-                <div className="selection__text">Special offer for everyone!</div>
-              )
-            } else {
-              return (
-                <div className="selection__text">{item.text}</div>
-              )
-            }
-          })()}
+          {changeText(item)}
         </div>
       ))
       }
-    </div >
+    </div>
   );
 };
 
