@@ -38,7 +38,8 @@
 
     @include respond(tablet) {
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: flex-start;
+      flex-wrap: wrap;
       gap: 2rem;
     }
 
@@ -55,9 +56,15 @@
     }
 
     @include respond(tablet) {
+      width: calc((100% - (2 * 2rem)) / 3);
+
       & + & {
         margin-top: 0;
       }
+    }
+
+    @include respond(laptop) {
+      width: calc((100% - (2 * 7.6rem)) / 3);
     }
   }
 
@@ -131,8 +138,30 @@
       }
     }
 
+    &:not(.selection__card_disabled) {
+      .selection__badge {
+        pointer-events: none;
+      }
+    }
+
     @include respond(tablet) {
       box-shadow: 15px 30px 20px rgba($black, 0.1);
+    }
+  }
+
+  &__input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    margin: 0;
+    &:not([disabled]) {
+      cursor: pointer;
     }
   }
 

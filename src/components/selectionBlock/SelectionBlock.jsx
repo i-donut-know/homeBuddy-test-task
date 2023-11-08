@@ -34,7 +34,7 @@ const CardBlock = ({ name, value, content, onChange }) => {
         <div className="selection__item" key={item.id}>
           <div className={"selection__card" + (item.disabled ? " selection__card_disabled" : "") + (value === item.value ? " selection__card_selected" : "")}>
             <label className="selection__cardInner">
-              <input className="selection__input" type="radio" onChange={changeHandler} name={name} value={item.value} aria-checked={value === item.value} disabled={item.disabled} />
+              <input className="selection__input" type="radio" onChange={changeHandler} name={name} value={item.value} disabled={item.disabled} />
               <span className="selection__info">
                 <span className="selection__title">{item.title}</span>
                 <span className={"selection__subtitle" + (value === item.value ? " selection__subtitle_accent_blue" : " selection__subtitle_accent_green")}>{item.subtitle}</span>
