@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/homebuddy-test-task/static/css/main.ea68640a.css",
+    "main.css": "/homebuddy-test-task/static/css/main.612096d8.css",
     "main.js": "/homebuddy-test-task/static/js/main.f856cdf3.js",
     "static/js/787.5675e920.chunk.js": "/homebuddy-test-task/static/js/787.5675e920.chunk.js",
     "static/media/bg.jpg": "/homebuddy-test-task/static/media/bg.9e95decd88a140526fbf.jpg",
@@ -21,12 +21,12 @@
     "static/media/badge-usa@2x.webp": "/homebuddy-test-task/static/media/badge-usa@2x.1af819a05fb07f32fc5b.webp",
     "static/media/badge-usa.webp": "/homebuddy-test-task/static/media/badge-usa.c4ed37519371f14ede66.webp",
     "index.html": "/homebuddy-test-task/index.html",
-    "main.ea68640a.css.map": "/homebuddy-test-task/static/css/main.ea68640a.css.map",
+    "main.612096d8.css.map": "/homebuddy-test-task/static/css/main.612096d8.css.map",
     "main.f856cdf3.js.map": "/homebuddy-test-task/static/js/main.f856cdf3.js.map",
     "787.5675e920.chunk.js.map": "/homebuddy-test-task/static/js/787.5675e920.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea68640a.css",
+    "static/css/main.612096d8.css",
     "static/js/main.f856cdf3.js"
   ]
 }
